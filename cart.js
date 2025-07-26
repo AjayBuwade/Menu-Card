@@ -56,5 +56,5 @@ function viewCart() {
         return `${item.name} - ${item.price}`;
     }).join('\n');
     
-    alert(`Cart Items:\n${cartItems}\n\nTotal: $${total.toFixed(2)}`);
+    alert(`Cart Items:\n${cartItems}\n\nTotal: ₹${total.toFixed(2)}`);
 }
